@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VENTA AUTOMOTRIZ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>FORMULARIO DE VENTA AUTOMOTRIZ</h1>
+    
+    <form id="formulario">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" onkeydown="pasarAlSiguiente(event, 'apellidos')" required>
+
+        <br><br>
+
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos" placeholder="Escribe tu apellido" onkeydown="pasarAlSiguiente(event, 'rut')" required>
+
+        <br><br>
+
+        <label for="rut">Rut/Pasaporte:</label>
+        <input type="text" id="rut" name="rut" placeholder="Escribe tu Rut" onkeydown="pasarAlSiguiente(event, 'vehiculo')" required>
+
+        <br><br>
+
+        <label for="vehiculo">Tipo De Vehículo:</label>
+        <input type="text" id="vehiculo" name="vehiculo" placeholder="Escribe tu Tipo De Vehículo" onkeydown="pasarAlSiguiente(event, 'modelo')" required>
+
+        <br><br>
+
+        <label for="modelo">Modelo:</label>
+        <input type="text" id="modelo" name="modelo" placeholder="Escribe tu Modelo" onkeydown="pasarAlSiguiente(event, 'color')" required>
+
+        <br><br>
+
+        <label for="color">Color:</label>
+        <input type="text" id="color" name="color" placeholder="Escribe tu Color" onkeydown="pasarAlSiguiente(event, 'permiso')" required>
+
+        <br><br>
+
+        <label for="permiso">Permiso Circulación:</label>
+        <input type="text" id="permiso" name="permiso" placeholder="Escribe tu Permiso de Circulación" onkeydown="pasarAlSiguiente(event, 'placas')" required>
+
+        <br><br>
+
+        <label for="placas">Placa:</label>
+        <input type="text" id="placas" name="placas" placeholder="Escribe tu placa" onkeydown="pasarAlSiguiente(event, 'soap')" required>
+
+        <br><br>
+
+        <label for="soap">Soap:</label>
+        <input type="text" id="soap" name="soap" placeholder="Escribe tu Soap" onkeydown="pasarAlSiguiente(event, 'seguro')" required>
+
+        <br><br>
+
+        <label for="seguro">Seguro de Vida:</label>
+        <input type="text" id="seguro" name="seguro" placeholder="Escribe tu Seguro de Vida" onkeydown="pasarAlSiguiente(event, 'full')" required>
+
+        <br><br>
+
+        <label for="full">Seguro Full Cobertura:</label>
+        <input type="text" id="full" name="full" placeholder="Escribe tu Seguro Full Cobertura" onkeydown="pasarAlSiguiente(event, 'mantenimiento')" required>
+
+        <br><br>
+
+        <label for="mantenimiento">Mantenimiento:</label>
+        <input type="text" id="mantenimiento" name="mantenimiento" placeholder="Escribe tu Mantenimiento" onkeydown="pasarAlSiguiente(event, 'combustible')" required>
+
+        <br><br>
+
+        <label for="combustible">Combustible:</label>
+        <input type="text" id="combustible" name="combustible" placeholder="Escribe tu Combustible" onkeydown="pasarAlSiguiente(event, 'garantia')" required>
+
+        <br><br>
+
+        <label for="garantia">Garantía:</label>
+        <input type="text" id="garantia" name="garantia" placeholder="Escribe tu Garantía">
+
+        <br><br>
+
+        <div class="contenedor">
+            <button type="button" onclick="enviarWhatsApp();">
+                Enviar Formulario y Boleta
+            </button>
+        </div>
+        
+
+
+        <br><br>
+        <button id="contenedor>
+            <a href="prueba.html" style="color: inherit; text-decoration: none;">FORMULARIO DE VENTA AUTOMOTRIZ</a>
+        </button>
+
+    </form>
+    
+    <script src="script.js"></script>
+</body>
+</html>

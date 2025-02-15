@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VENTA AUTOMOTRIZ</title>
+</head>
+<body>
+    <h1>BOLETA ELECTRONICA</h1>
+    
+    <form id="boleta">
+        <label for="empresa">Epresa:</label>
+        <input type="text" id="empresa" name="empresa" placeholder="Escribe el nombre de empresa" onkeydown="pasarAlSiguiente(event, 'rut emp')" required>
+
+        <br><br>
+
+        <label for="rut emp">Rut De Empresa:</label>
+        <input type="text" id="rut emp" name="rut emp" placeholder="Escribe el rut de empresa" onkeydown="pasarAlSiguiente(event, 'boleta')" required>
+
+        <br><br>
+
+        <label for="boleta">Numero De Boleta:</label>
+        <input type="text" id="boleta" name="boleta" placeholder="Escribe el numero de boleta" onkeydown="pasarAlSiguiente(event, 'item1')" required>   
+
+        <br><br>
+
+        <label for="item1">Item:</label>
+        <input type="text" id="item1" name="item1" placeholder="Escribe el item" onkeydown="pasarAlSiguiente(event, 'valor1')" required>
+
+        <br><br>
+
+        <label for="valor1">Valor Item:</label>
+        <input type="text" id="valor1" name="valor1" placeholder="Escribe el valor" onkeydown="pasarAlSiguiente(event, 'item2')" required>
+
+        <br><br>
+
+        <label for="item2">Item:</label>
+        <input type="text" id="item2" name="item2" placeholder="Escribe el item" onkeydown="pasarAlSiguiente(event, 'valor2')" required>
+
+        <br><br>
+
+        <label for="valor2">Valor Item:</label>
+        <input type="text" id="valor2" name="valor2" placeholder="Escribe el valor" onkeydown="pasarAlSiguiente(event, 'iva')" required>
+
+        <br><br>
+
+        <label for="iva">Iva 19%:</label>
+        <input type="text" id="iva" name="iva" placeholder="Escribe el iva" onkeydown="pasarAlSiguiente(event, 'total')" required>
+
+        <br><br>
+
+        <label for="total">Total:</label>
+        <input type="text" id="total" name="total" placeholder="Escribe el total" required>
+
+        <br><br>
+
+        

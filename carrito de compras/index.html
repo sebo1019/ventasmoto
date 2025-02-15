@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nulo Motores LTDA</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            padding: 10px 20px;
+            color: white;
+        }
+        .logo img {
+            width: 100px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .carrito a {
+            color: white;
+            text-decoration: none;
+        }
+        .moto-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .moto {
+            background-color: white;
+            padding: 10px;
+            text-align: center;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .moto img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Nulo Motores LTDA">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Motos Multipropósito</a></li>
+                <li><a href="#">Scooters</a></li>
+                <li><a href="#">Alta Rango</a></li>
+            </ul>
+        </nav>
+        <div class="carrito">
+            <a href="#"><i class="fas fa-shopping-cart"></i> Lista de compras</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="moto-grid">
+            <div class="moto">
+                <a href="moto1.html">
+                    <img src="imagenes/moto.jpg" alt="Moto 1">
+                    <h2>TVS NTORQ</h2>
+                    <p>$1.349.000</p>
+                </a>
+            </div>
+
+            <div class="moto">
+                <a href="moto2.html">
+                    <img src="imagenes/moto.jpg" alt="Moto 2">
+                    <h2>Yamaha R15</h2>
+                    <p>$3.690.000</p>
+                </a>
+            </div>
+
+            <div class="moto">
+                <a href="moto3.html">
+                    <img src="" alt="Moto 3">
+                    <h2>Eve Motors DMS</h2>
+                    <p>$5.050.000</p>
+                </a>
+            </div>
+
+            <div class="moto">
+                <a href="moto4.html">
+                    <img src="" alt="Moto 4">
+                    <h2>CV Motos ATV 150 Hummer</h2>
+                    <p>$1.790.000</p>
+                </a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
